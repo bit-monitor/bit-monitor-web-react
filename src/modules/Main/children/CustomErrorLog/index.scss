@@ -1,0 +1,35 @@
+.customErrorLog-container {
+  padding: 1vw;
+
+  .customErrorLog-topBanner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .customErrorLog-topBanner-radio {
+      margin-right: 1vw;
+    }
+
+    .customErrorLog-topBanner-datePicker {
+      width: 20vw;
+    }
+  }
+
+  .customErrorLog-charts {
+    padding: 1vw 0;
+
+    .chartItem {
+      width: 100%;
+      height: 10vw;
+    }
+  }
+
+  .customErrorLog-table {
+    margin-top: 1vw;
+    .customErrorLog-table-handleBtn {
+      button:nth-child(2) {
+        margin-left: 1vw;
+      }
+    }
+  }
+}
